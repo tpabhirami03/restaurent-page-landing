@@ -1,0 +1,559 @@
+@import url('https://fonts.googleapis.com/css2?family=Agdasima&family=Bacasime+Antique&family=Edu+QLD+Beginner&family=Josefin+Slab:ital,wght@0,400;1,300&family=M+PLUS+Code+Latin:wght@300&family=Noto+Sans:ital,wght@0,400;1,300&family=Roboto:ital,wght@0,100;0,300;1,300&family=Ysabeau+Office:ital,wght@0,300;1,300&family=Zen+Loop&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+  }
+  /* body{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+  } */
+
+
+  #home{
+    height: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(./image/cccc.jpg.png);
+    background-position: center;
+    background-size: cover;
+    margin-top: 60px;
+  }
+  .container1{
+    max-width: 1300px;
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* position: fixed; */
+  }
+  .logo{
+    font-size: 35px;
+    color: #151414;
+  }
+  .navbar-menu a{
+    color: #0d0d0d;
+    font-size: 13px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 100;
+    padding: 12px 15px;
+    border-radius: 2px;
+    display: inline-block;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.4s;
+  }
+  
+  .navbar-menu a:hover{
+    background-color: #0d0d0d;
+    color: #000;
+  }
+  .description{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+    padding: 0 70px;
+    width: 100%;
+    text-align: center;
+  }
+  .description h2{
+    font-size: 30px;
+    font-family: 'Great Vibes',sans-serif;
+    font-weight: 100;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 50px;
+  }
+  .description h1{
+    font-size: 35px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    line-height: 70px;
+  }
+  .description p{
+    font-size: 14px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 100;
+    color: #fff;
+    letter-spacing: 2px;
+    line-height: 25px;
+    margin-bottom: 30px;
+  }
+  .description button{
+    font-size: 14px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 700;
+    color: #fff;
+    background: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 12px 20px;
+    border: 1px solid #fff;
+    border-radius: 3px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.4s;
+  }
+  .description button:hover{
+    background: #fff;
+    color: #000;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+ /* menu */
+
+
+ 
+
+.con{
+    margin-bottom: 400px;
+    background-color: #0d0d0d;
+    
+}
+
+.menu .menu-header {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu-header h3 {
+    color: rgb(215, 144, 11);
+    padding: 10px 30px;
+}
+
+.menu-header h4 {
+    color: rgb(201, 134, 9);
+    padding: 10px 20px;
+}
+
+.menu .menu-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 50px 0;
+    flex-wrap: wrap;
+    background-color:  rgb(9, 9, 9);
+}
+
+.menu .menu-content .hot-coffees,
+.cold-coffees,
+.frappucino-coffees {
+    width: 250px;
+}
+
+.menu .menu-content .hot-coffees .hot-coffees-image img {
+    border-radius: 50%;
+}
+
+.menu .menu-content .cold-coffees .cold-coffees-image img {
+    border-radius: 50%;
+    /* margin-top: 500px; */
+    /* margin-left: 100px; */
+}
+
+.menu .menu-content .frappucino-coffees .frappucino-coffees-image img {
+    border-radius: 80%;
+    /* margin-top: -400px; */
+}
+.menu .menu-content .Latte-Coffees .Latte-Coffees-image img {
+  border-radius: 50%;
+  /* margin-top: -150px; */
+
+}
+
+.menu .menu-content .americano-coffees .americano-coffees-image img {
+  border-radius: 50%;
+  width: 20%;
+  height: 30%;
+  margin-left: 73%;
+  margin-top: -79%;
+
+}
+
+
+
+
+.menu .menu-content .hot-coffees-body,
+.cold-coffees-body,
+.frappucino-coffees-body
+ {
+    text-align: center;
+    margin-top: 10px;
+    /* margin-left: 150px; */
+  }
+
+
+.menu .menu-content .hot-coffees-body h2,
+.cold-coffees-body h2,
+.frappucino-coffees-body h2, 
+.americano-coffees-body h2{
+    color: orange;
+}
+
+.menu .menu-content .hot-coffees-body label,
+.cold-coffees-body label,
+.frappucino-coffees-body label,
+.americano-coffees label{
+    margin-top: 10px;
+    color: white;
+} 
+ 
+
+/* about */
+
+#about{
+    /* margin-right: 8%; */
+    margin-top: 55%;
+    /* margin-left: 10%; */
+    background-image: url(https://images.pexels.com/videos/3045163/free-video-3045163.jpg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.heading{
+    text-align: center;
+    color: var(--primary-color);
+    text-transform: uppercase;
+    font-size: 4rem;
+    margin-top: 5rem;
+    color: bisque;
+}
+.about{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background-image: url(./image/cream.png); */
+    background-repeat: repeat-y;
+    background-position: center top;
+    background-color: black;
+
+}
+
+.about .row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about .row .image{
+    flex: 1 1 55rem;
+
+}
+.about .row .image img{
+    width: 40%;
+
+}
+.about .row .content{
+    flex: 1 1 45rem;
+    padding: 8rem;
+   
+
+}
+.about .row .content h3{
+    font-size: 3rem;
+    color:white;
+    margin-top: -600px;
+    margin-left: 300px;
+}
+.about .row .content p{
+    font-size: 1.6rem;
+    color: #f6ab29;
+    padding: 1rem 0;
+    line-height: 1.8;
+    margin-left: 300px;
+}
+#img1{
+    margin-right: 300px;
+}
+
+/* review */
+
+.review{
+  background-color: #000;
+  margin-top: -25%;
+}
+
+.review .box-container{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30rem,1fr));
+  gap: 1.5rem;
+}
+.review .box-container .box{
+  border: var(--border);
+  text-align: center;
+  padding: 3rem 2rem;
+}
+
+.review .box-container .box p{
+  font-size: 1.6rem;
+  line-height: 1.8;
+  color: #ccc;
+  padding: 2rem 0;
+}
+
+.review .box-container .box .user{
+   height: 7rem;
+   width: 7rem;
+   border-radius: 50%;
+   object-fit: cover;
+}
+.review .box-container .box h3{
+  padding: 1rem 0;
+  font-size: 2rem;
+  color: #101010;
+}
+.review .box-container .box .stars i{
+  font-size: 1.5rem;
+  color: var(--main--color);
+}
+
+/* contact */
+
+.contact{
+  background-color: #000;
+  margin-top: -5%;
+}
+
+.contact .row{
+  display: flex;
+  align-items: center;
+  background: var(--black);
+  flex-wrap: wrap;
+  gap: 1rem;
+
+}
+.contact .row .map{
+  flex:1 1 45rme;
+  width: 50%;
+  object-fit: cover;
+ 
+}
+
+.cont{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+
+}
+
+.cont .contactinfo{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+
+.cont .contactinfo .box{
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+
+.cont .contactinfo .box .icn{
+  min-width: 60px;
+  height: 60px;
+  background: #faf6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+
+}
+
+.cont .contactinfo .box .icn .text{
+  display: flex;
+  margin-top: 20px;
+  font-size: 16px;
+  color: black;
+  flex-direction: column;
+  font-weight: 300;
+}
+
+.cont .contactinfo .box .icn .text h3{
+  font-weight: 500;
+  color: rgb(13, 15, 14);
+  font-family: cursive;
+}
+
+
+.contactform{
+  width: 40%;
+  padding: 40px;
+  background: #fff;
+
+}
+
+.contactform h2{
+font-size: 30px;
+color: #333;
+font-weight: 500;
+
+}
+
+.contactform .inputbox{
+position: relative;
+width: 100%;
+margin-top: 10px;
+}
+
+.contactform .inputbox input,
+.contactform .inputbox textarea{
+width: 100%;
+padding: 5px 0;
+font-size: 16px;
+margin: 10px 0;
+border: none;
+border-bottom: 2px solid #333;
+outline: none;
+resize: none;
+
+}
+
+.contactform .inputbox span{
+position: absolute;
+left: 0;
+padding: 5px 0;
+font-size: 16px;
+margin: 10px 0;
+pointer-events: none;
+transition: 0.5s;
+color: #666;
+}
+
+.contactform .inputbox input:focus ~ span,
+.contactform .inputbox input:valid ~ span,
+.contactform .inputbox textarea:focus ~ span,
+.contactform .inputbox textarea:valid ~ span{
+color: red;
+font-size: 12px;
+transform: translateY(-20px);
+}
+
+.contactform .inputbox input[type="submit"]{
+width: 100px;
+background: lightslategray;
+color: black;
+border: none;
+cursor: pointer;
+padding: 10px;
+font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
